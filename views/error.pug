@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .Error
+    h1.Error__message
+      = message
+    h2.Error__status
+      = error.status
+    pre.Error__trace
+      | error.stack

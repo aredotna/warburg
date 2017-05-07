@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .Block
+    if image
+      img(src=image.large.url, alt=title, title=title)
+
+  .BlockMetadata
+    .BlockMetadata__title
+      = title
+
+    if description_html
+      .BlockMetadata__description
+        != description_html
+
+    if source
+      .BlockMetadata__source
+        | Source:
+        = ' '
+        a(href=source.url)
+          | #{source.title} (#{source.url})

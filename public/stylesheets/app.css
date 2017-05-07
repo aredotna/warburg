@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 15px;
+  line-height: 1.33;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+}
+
+.ChannelTitle {
+  margin: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Grid {
+  margin: 5px;
+}
+
+.GridBlock {
+  display: inline-block;
+  /*max-width: 250px;*/
+}
+  .GridBlock > img {
+    opacity: 0;
+    transition: opacity 500ms;
+    background-color: #ccc;
+  }
+    .GridBlock > .img--loaded {
+      opacity: 1;
+    }
+
+.Block {
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+  .Block > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.BlockMetadata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+  min-height: 25vh;
+  margin: 0 auto;
+  padding: 5px;
+}
