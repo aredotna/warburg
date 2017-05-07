@@ -1,0 +1,13 @@
+{
+  "name": "Warburg",
+  "description": "A simple & generic Are.na client boilerplate.",
+  "repository": "https://github.com/aredotna/warburg",
+  "logo": "https://d2hp0ptr16qg89.cloudfront.net/assets/127302a/touch-icon-ipad-retina.png",
+  "keywords": ["node", "express", "arena", "are.na"],
+  "env": {
+    "ARENA_CHANNEL_ID": {
+      "description": "The ID of the channel you want to serve as the homepage",
+      "required": true
+    },
+  }
+}
