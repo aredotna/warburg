@@ -8,6 +8,6 @@
     "ARENA_CHANNEL_ID": {
       "description": "The ID of the channel you want to serve as the homepage",
       "required": true
-    },
+    }
   }
 }
