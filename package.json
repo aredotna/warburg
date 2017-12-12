@@ -6,16 +6,16 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "node": "8.1.4"
+    "node": "8.4.x"
   },
   "dependencies": {
-    "axios": "^0.16.1",
-    "body-parser": "~1.17.1",
+    "axios": "^0.17.1",
+    "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
-    "pug": "~2.0.0-beta11",
-    "serve-favicon": "~2.4.2"
+    "debug": "~3.1.0",
+    "express": "~4.16.2",
+    "morgan": "~1.9.0",
+    "pug": "~2.0.0-rc.4",
+    "serve-favicon": "~2.4.5"
   }
 }
