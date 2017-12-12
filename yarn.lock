@@ -35,6 +35,13 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+are.na@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/are.na/-/are.na-0.0.7.tgz#4c63a26bb2c28caf1b3933ca89a8b9d38995001d"
+  dependencies:
+    axios "^0.17.1"
+    qs "^6.5.1"
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
@@ -522,7 +529,7 @@ pug@~2.0.0-rc.4:
     pug-runtime "^2.0.3"
     pug-strip-comments "^1.0.2"
 
-qs@6.5.1:
+qs@6.5.1, qs@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
